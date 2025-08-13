@@ -28,7 +28,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-        <pre>{JSON.stringify(window.Telegram, null, 2)}</pre>
+        <pre>{JSON.stringify(window.Telegram.WebApp, null, 2)}</pre>
       </p>
     </>
   )
