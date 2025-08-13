@@ -4,7 +4,7 @@ build:
 	npm run build
 
 start:
-	npm start
+	npm run preview
 
 install:
 	npm ci

@@ -5,6 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  console.log('ОКНО ОКНААА', window.Telegram.WebApp);
 
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+        <pre>{JSON.stringify(window.Telegram, null, 2)}</pre>
       </p>
     </>
   )
